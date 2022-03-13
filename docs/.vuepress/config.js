@@ -32,6 +32,54 @@ module.exports = {
                 collapsable: false
             },
             {
+                title: 'Installation',
+                path: '/installation/',
+                collapsable: false,
+                children: [
+                    '/installation/',
+                    '/installation/plugin-installation',
+                    '/installation/pairing-the-device',
+                    '/installation/adding-to-home-app',
+                ]
+            },
+            {
+                title: 'Configuration',
+                path: '/configuration/',
+                collapsable: false,
+                children: [
+                    '/configuration/',
+                    '/configuration/options',
+                    '/configuration/smartthings-api',
+                ]
+            },
+            {
+                title: 'Features',
+                collapsable: false,
+                children: [
+                    '/features/inputs',
+                    '/features/switches',
+                    '/features/keys',
+                ]
+            },
+            {
+                title: 'Troubleshooting',
+                collapsable: false,
+                children: [
+                    '/troubleshooting/common-issues',
+                    '/troubleshooting/open-new-issue',
+                ]
+            },
+            {
+                title: 'Extra',
+                collapsable: false,
+                children: [
+                    '/extra/applications',
+                    '/extra/commands',
+                    '/extra/install-beta',
+                ]
+            },
+
+            {
                 title: 'Guide',
                 path: '/guide/',
                 collapsable: false,
